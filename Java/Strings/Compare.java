@@ -16,7 +16,8 @@ public class Compare {
     Scanner scan = new Scanner(System.in);
     String userString = scan.nextLine();
     int substringLength = scan.nextInt();
-
+    scan.close();
+    
     /* To avoid an exception when using substring method */
     int limit = userString.length() - substringLength;
 

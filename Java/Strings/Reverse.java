@@ -18,6 +18,7 @@ public class Reverse {
     /* Read user input */
     Scanner scan = new Scanner(System.in);
     String word = scan.next();
+    scan.close();
 
     /* Variable to hold the answer */
     String answer = "";
